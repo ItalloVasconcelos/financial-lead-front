@@ -1,0 +1,362 @@
+[
+  {
+    "id": "lead_001",
+    "name": "Robert Allen",
+    "role": "Director of Operations",
+    "company": "Pacific LogTech",
+    "estimated_value": 1100000.00,
+    "source": "LinkedIn Ads - 2026 Market Outlook Webinar",
+    "status": "NEW",
+    "temperature": "HOT",
+    "owner_id": "advisor_001",
+    "contact": {
+      "email": "rob***@pacificlogtech.com",
+      "phone": "+1 (415) 555-01**"
+    },
+    "last_engagement": {
+      "action": "Ran a simulation on a corporate retirement plan",
+      "timestamp": "2026-07-01T18:20:00Z"
+    },
+    "sales_enablement": {
+      "recommended_product": "Corporate Retirement Solutions",
+      "script_preview": "Approach Robert by highlighting tax optimization for LogTech's leadership team and deferred tax advantages.",
+      "asset_links": ["https://internal.growthhub/assets/corp-retirement-brief-2026.pdf"]
+    }
+  },
+  {
+    "id": "lead_002",
+    "name": "Beatrice Carter",
+    "role": "Oncologist",
+    "company": "Private Practice",
+    "estimated_value": 640000.00,
+    "source": "Organic Search - REIT Spreadsheet",
+    "status": "CONTACT_ATTEMPT",
+    "temperature": "HOT",
+    "owner_id": "advisor_002",
+    "contact": {
+      "email": "bea***@medpractice.com",
+      "phone": "+1 (510) 555-02**"
+    },
+    "last_engagement": {
+      "action": "Downloaded the 'High-Yield REIT Guide' e-book",
+      "timestamp": "2026-07-01T01:45:00Z"
+    },
+    "sales_enablement": {
+      "recommended_product": "Premium Managed REIT Portfolio",
+      "script_preview": "Focus on tax-advantaged passive income for high-earning physicians with limited free time.",
+      "asset_links": ["https://internal.growthhub/assets/reit-wealth-manual.pdf"]
+    }
+  },
+  {
+    "id": "lead_003",
+    "name": "Carlos Santos",
+    "role": "Founder",
+    "company": "Golden State Foods",
+    "estimated_value": 9000.00,
+    "source": "Instagram - Growth Campaign",
+    "status": "LOST",
+    "temperature": "COLD",
+    "owner_id": "advisor_001",
+    "contact": {
+      "email": "car***@goldenstatefoods.com",
+      "phone": "+1 (408) 555-03**"
+    },
+    "last_engagement": {
+      "action": "Clicked a microloan ad",
+      "timestamp": "2026-06-25T10:12:00Z"
+    },
+    "sales_enablement": {
+      "recommended_product": "None - Below Minimum",
+      "script_preview": "Lead archived - below the $10k minimum asset threshold. Enroll in automated nurture sequence.",
+      "asset_links": []
+    }
+  },
+  {
+    "id": "lead_004",
+    "name": "Marianne Souza",
+    "role": "VP of Finance",
+    "company": "SolarPeak Energy Inc.",
+    "estimated_value": 2500000.00,
+    "source": "Direct Referral",
+    "status": "MEETING_SCHEDULED",
+    "temperature": "HOT",
+    "owner_id": "advisor_003",
+    "contact": {
+      "email": "mar***@solarpeak.com",
+      "phone": "+1 (213) 555-04**"
+    },
+    "last_engagement": {
+      "action": "Completed a wealth diagnostic meeting",
+      "timestamp": "2026-06-30T21:00:00Z"
+    },
+    "sales_enablement": {
+      "recommended_product": "Exclusive Family Office Wealth Management",
+      "script_preview": "Present the closed-end exclusive fund structure designed for family holding companies.",
+      "asset_links": ["https://internal.growthhub/assets/family-office-deck.pdf"]
+    }
+  },
+  {
+    "id": "lead_005",
+    "name": "Richard Diaz",
+    "role": "Senior Software Engineer",
+    "company": "TechCorp Global",
+    "estimated_value": 150000.00,
+    "source": "YouTube Ads - International Investing",
+    "status": "PROPOSAL_SENT",
+    "temperature": "WARM",
+    "owner_id": "advisor_002",
+    "contact": {
+      "email": "ric***@techcorp.io",
+      "phone": "+1 (650) 555-05**"
+    },
+    "last_engagement": {
+      "action": "Opened the international allocation proposal 2 hours ago",
+      "timestamp": "2026-07-01T16:30:00Z"
+    },
+    "sales_enablement": {
+      "recommended_product": "Global Offshore Portfolio",
+      "script_preview": "Reinforce the benefits of geographic diversification and USD currency protection.",
+      "asset_links": ["https://internal.growthhub/assets/offshore-proposal-template.pdf"]
+    }
+  },
+  {
+    "id": "lead_006",
+    "name": "Patricia Mendez",
+    "role": "CFO",
+    "company": "Pacific Textile Co.",
+    "estimated_value": 840000.00,
+    "source": "LinkedIn Ads - Cash Flow Management",
+    "status": "NEW",
+    "temperature": "HOT",
+    "owner_id": "advisor_001",
+    "contact": {
+      "email": "pat***@pacifictextile.com",
+      "phone": "+1 (619) 555-06**"
+    },
+    "last_engagement": {
+      "action": "Used the receivables financing calculator",
+      "timestamp": "2026-07-01T18:05:00Z"
+    },
+    "sales_enablement": {
+      "recommended_product": "Structured Credit & Receivables Financing",
+      "script_preview": "Focus on improving working capital and reducing cost of capital versus traditional banks.",
+      "asset_links": ["https://internal.growthhub/assets/structured-credit-folder.pdf"]
+    }
+  },
+  {
+    "id": "lead_007",
+    "name": "Fernando Lima",
+    "role": "Angel Investor",
+    "company": "Independent",
+    "estimated_value": 420000.00,
+    "source": "Google Search - Structured Notes",
+    "status": "CONTACT_ATTEMPT",
+    "temperature": "WARM",
+    "owner_id": "advisor_003",
+    "contact": {
+      "email": "fer***@fhlventures.com",
+      "phone": "+1 (925) 555-07**"
+    },
+    "last_engagement": {
+      "action": "Left a phone number on the 'Learn About Structured Notes' form",
+      "timestamp": "2026-06-30T11:15:00Z"
+    },
+    "sales_enablement": {
+      "recommended_product": "Principal-Protected Global Equity Notes",
+      "script_preview": "Present leveraged upside structures with full principal protection.",
+      "asset_links": ["https://internal.growthhub/assets/structured-notes-tech-2026.pdf"]
+    }
+  },
+  {
+    "id": "lead_008",
+    "name": "Julia Vance",
+    "role": "Director of HR",
+    "company": "Inova Health Group",
+    "estimated_value": 360000.00,
+    "source": "Tax Planning Webinar",
+    "status": "MEETING_SCHEDULED",
+    "temperature": "HOT",
+    "owner_id": "advisor_002",
+    "contact": {
+      "email": "jul***@inovahealth.com",
+      "phone": "+1 (415) 555-08**"
+    },
+    "last_engagement": {
+      "action": "Confirmed attendance for tomorrow's wealth planning session",
+      "timestamp": "2026-07-01T15:00:00Z"
+    },
+    "sales_enablement": {
+      "recommended_product": "Estate Planning & Premium Life Insurance",
+      "script_preview": "Discuss the advantages of cash-value life insurance for estate structuring and liquidity.",
+      "asset_links": ["https://internal.growthhub/assets/estate-planning-guide.pdf"]
+    }
+  },
+  {
+    "id": "lead_009",
+    "name": "Lucas Costa",
+    "role": "Vineyard Owner",
+    "company": "Boa Vista Vineyards",
+    "estimated_value": 1300000.00,
+    "source": "Napa Valley Agribusiness Expo 2026",
+    "status": "PROPOSAL_SENT",
+    "temperature": "HOT",
+    "owner_id": "advisor_003",
+    "contact": {
+      "email": "luc***@boavistavineyards.com",
+      "phone": "+1 (707) 555-09**"
+    },
+    "last_engagement": {
+      "action": "Requested a fee review on the proposed agribusiness fund",
+      "timestamp": "2026-06-30T23:20:00Z"
+    },
+    "sales_enablement": {
+      "recommended_product": "Agribusiness Fund & Farmland-Backed Notes",
+      "script_preview": "Highlight the tax exemption for individuals and how it supports his own industry.",
+      "asset_links": ["https://internal.growthhub/assets/agri-notes-proposal.pdf"]
+    }
+  },
+  {
+    "id": "lead_010",
+    "name": "Beatrice Martin",
+    "role": "Dentist",
+    "company": "BrightSmile Dental",
+    "estimated_value": 190000.00,
+    "source": "Instagram Ads",
+    "status": "WON",
+    "temperature": "COLD",
+    "owner_id": "advisor_001",
+    "contact": {
+      "email": "bea***@brightsmiledental.com",
+      "phone": "+1 (818) 555-10**"
+    },
+    "last_engagement": {
+      "action": "Assets fully transferred ($195k custodied)",
+      "timestamp": "2026-06-30T00:30:00Z"
+    },
+    "sales_enablement": {
+      "recommended_product": "Conservative Diversified Portfolio",
+      "script_preview": "Lead Won. Focus now on post-sale follow-up and scheduling a quarterly review.",
+      "asset_links": []
+    }
+  },
+  {
+    "id": "lead_011",
+    "name": "Thiago Mendes",
+    "role": "CTO",
+    "company": "CryptoSolutions",
+    "estimated_value": 820000.00,
+    "source": "Growth Finance Podcast",
+    "status": "NEW",
+    "temperature": "HOT",
+    "owner_id": "advisor_002",
+    "contact": {
+      "email": "thi***@cryptosolutions.io",
+      "phone": "+1 (415) 555-11**"
+    },
+    "last_engagement": {
+      "action": "Listened to the episode and filled out the Wealth Management form",
+      "timestamp": "2026-07-01T18:35:00Z"
+    },
+    "sales_enablement": {
+      "recommended_product": "Alternative Investments & Venture Capital Funds",
+      "script_preview": "Engage at a technical level about diversification into assets uncorrelated with traditional markets.",
+      "asset_links": ["https://internal.growthhub/assets/alt-investments-folder.pdf"]
+    }
+  },
+  {
+    "id": "lead_012",
+    "name": "Camila Rocha",
+    "role": "Associate Attorney",
+    "company": "Rocha & Associates Law",
+    "estimated_value": 280000.00,
+    "source": "Organic Search",
+    "status": "CONTACT_ATTEMPT",
+    "temperature": "WARM",
+    "owner_id": "advisor_003",
+    "contact": {
+      "email": "cam***@rochalaw.com",
+      "phone": "+1 (628) 555-12**"
+    },
+    "last_engagement": {
+      "action": "Sent an introductory text message (awaiting reply)",
+      "timestamp": "2026-07-01T16:00:00Z"
+    },
+    "sales_enablement": {
+      "recommended_product": "Premium Private Credit Fixed Income Fund",
+      "script_preview": "Highlight the 30-day liquidity combined with returns historically above benchmark.",
+      "asset_links": ["https://internal.growthhub/assets/private-credit-brief.pdf"]
+    }
+  },
+  {
+    "id": "lead_013",
+    "name": "Gabriel Albuquerque",
+    "role": "Heir / Asset Manager",
+    "company": "Albuquerque Family Holdings",
+    "estimated_value": 3800000.00,
+    "source": "Private Banking Referral",
+    "status": "MEETING_SCHEDULED",
+    "temperature": "HOT",
+    "owner_id": "advisor_001",
+    "contact": {
+      "email": "gab***@albuquerqueholdings.com",
+      "phone": "+1 (310) 555-13**"
+    },
+    "last_engagement": {
+      "action": "Offshore structured proposal presentation scheduled for this afternoon",
+      "timestamp": "2026-07-01T17:00:00Z"
+    },
+    "sales_enablement": {
+      "recommended_product": "Exclusive Investment Fund",
+      "script_preview": "Emphasize tax efficiency and asset protection the exclusive fund provides for the holding company.",
+      "asset_links": ["https://internal.growthhub/assets/exclusive-fund-deck.pdf"]
+    }
+  },
+  {
+    "id": "lead_014",
+    "name": "Vanessa Ribeiro",
+    "role": "Franchise Owner",
+    "company": "Golden Gate Pharmacy Network",
+    "estimated_value": 130000.00,
+    "source": "Google Maps Local Ads",
+    "status": "LOST",
+    "temperature": "COLD",
+    "owner_id": "advisor_002",
+    "contact": {
+      "email": "van***@ggpharmacynetwork.com",
+      "phone": "+1 (415) 555-14**"
+    },
+    "last_engagement": {
+      "action": "Mentioned on a call that she already signed exclusively with a competitor",
+      "timestamp": "2026-06-28T15:10:00Z"
+    },
+    "sales_enablement": {
+      "recommended_product": "None - Lost to Competitor",
+      "script_preview": "Logged as lost to direct competition. Schedule re-engagement in 6 months to compare fees.",
+      "asset_links": []
+    }
+  },
+  {
+    "id": "lead_015",
+    "name": "Rodrigo Silva",
+    "role": "Sales Director",
+    "company": "Bay Area Realty Group",
+    "estimated_value": 220000.00,
+    "source": "LinkedIn Organic",
+    "status": "PROPOSAL_SENT",
+    "temperature": "WARM",
+    "owner_id": "advisor_003",
+    "contact": {
+      "email": "rod***@bayarearealty.com",
+      "phone": "+1 (925) 555-15**"
+    },
+    "last_engagement": {
+      "action": "Sent an email with comparative fixed-income bond brief",
+      "timestamp": "2026-06-30T21:30:00Z"
+    },
+    "sales_enablement": {
+      "recommended_product": "Tax-Exempt Municipal Bonds",
+      "script_preview": "Focus on FDIC-backed security combined with tax exemption for individuals.",
+      "asset_links": ["https://internal.growthhub/assets/tax-exempt-bonds-table.pdf"]
+    }
+  }
+]
