@@ -1,5 +1,6 @@
 
 import type { Lead } from  "@/types/lead";
+import { formatInitials, formatEstimatedValue, formatLastContactAt } from "@/utils/format";
 interface LeadCardProps {
     lead: Lead;
     variant?: "row" | "card"; // List or Kanban view
@@ -8,22 +9,12 @@ interface LeadCardProps {
 
 
 export function LeadCard({ lead, variant = "row", onClick }: LeadCardProps) {
-const initials = lead.name.split(" ")
-    .map((part: string) => part[0])
-    .slice(0, 2)
-    .join("")
-    .toUpperCase();
-
-const formatedEstimatedValue: string = Intl.NumberFormat('en-US', {style: 'currency', currency: 'USD'}).format(lead.estimatedValue);
-
-const formatedLastContactAt: string = new Date(lead.lastContactAt).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
-
 // Para colocar o 3 hours ago, fazer o calculo da diferença do new Date(isoDate) e new Date()
     return(
         <div onClick={() => onClick?.(lead.id)}>
             <div>
                 {/* Avatar */}
-                <span>{initials}</span>
+                <span>{formatInitials(lead.name)}</span>
             </div>
             <div>
                 {/* Lead Info */}
@@ -31,10 +22,10 @@ const formatedLastContactAt: string = new Date(lead.lastContactAt).toLocaleDateS
                 <p>{lead.company}</p>
             </div>
             {/* Vai virar uma formatção */}
-            <p>${formatedEstimatedValue}</p>
+            <p>{formatEstimatedValue(lead.estimatedValue)}</p>
             <span>{lead.status}</span>
             <span>{lead.temperature}</span>
-            <span>{formatedLastContactAt}</span>
+            <span>{formatLastContactAt(lead.lastContactAt)}</span>
         </div>
     )
 }
