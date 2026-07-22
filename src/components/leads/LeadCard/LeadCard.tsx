@@ -13,6 +13,7 @@ interface LeadCardProps {
   onClick?: (leadId: string) => void;
 }
 
+
 export function LeadCard({ lead, variant = "row", onClick }: LeadCardProps) {
   const isRow = variant === "row";
 
