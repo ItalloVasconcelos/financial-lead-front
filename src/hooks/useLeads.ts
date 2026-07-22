@@ -28,12 +28,14 @@ type AsyncState<T> =
 //     .catch((erro) => console.error(erro.message)) Faço a validação de possiveis erros
 // }
 
-async function fetchLeadsAsync(): Promise<Lead[]> {
-    const response = await fetch("../../mock/leads.mock.json") //Faço a requisição 
+async function fetchLeadsAsync(signal ?: AbortSignal): Promise<Lead[]> {
+
+    const response = await fetch(`../../mock/leads.mock.json`, { signal }) //Faço a requisição e passo o sinal do controle para o fetch 
     if(!response.ok) {  // Fazendo a validação de erro que o fetch não faz.
         throw new Error(`HTTP Erro: ${response.status}`)
     }
     return response.json() //Retornando os dados, já com JSON.
+
 }
 /**Essa aqui é a parte mais complicada pra mim, mas mais por entendimento em si
  * 1. Eu não sei muito bem o que o useEffect faz e também não sei pq ele ta sem dependencias
@@ -42,9 +44,9 @@ async function fetchLeadsAsync(): Promise<Lead[]> {
  */
 export function useLeads() {
     const [state, setState] = useState<AsyncState<Lead[]>>({status: "loading"})
-
     useEffect(() => {
-        fetchLeadsAsync() //Chamo a função que chama os dados da API.
+        const controller = new AbortController();
+        fetchLeadsAsync(controller.signal) //Chamo a função que chama os dados da API e passo como argumento o signal definido no fetch, para funcionar.
         .then((leads) => { //Coloca o leads como os dados que vem da API
             if(leads.length === 0) { //Valido caso o tamanho dos dados seja 0, logo ele vem como vazio ("Empty")
                 setState({status:"empty"})
@@ -55,9 +57,11 @@ export function useLeads() {
         .catch((erro) => {
             //Melhora no código: 
             const message = erro instanceof Error ? erro.message: String(erro)
-            setState({status: "error", message}) //O tratamento de erro, caso venha erro.
+            erro.name === "AbortError" ? console.log("Last Request canceled") : setState({status: 'error', message}) // Refazendo com o AbortController.
         })
-
+        return () => {
+            controller.abort()
+        }
     }, [])
     return state; //Retorno o estado atual (Loading) e as mudanças. Agora eu não entendi pq ele é fora do useEffect.
 }
